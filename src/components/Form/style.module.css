@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.input {
+    flex: 1 0 0;
+    max-width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 10px;
+    background-color: #F8EDE3;
+    color: #85586F;
+    height: 30px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+}
+
+.input::placeholder {
+    color: #85586F;
+}
+
+.button {
+    flex: 0 0 50px;
+    max-width: 50px;
+    background-color: #85586F;
+    color: #F8EDE3;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 30px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+}
